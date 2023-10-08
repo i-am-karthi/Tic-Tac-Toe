@@ -1,0 +1,29 @@
+h1{
+   color: red;
+}
+h3{
+    color: blue;;
+}
+#box{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+}
+#box div{
+border: 0.1rem solid black;
+height: 4rem;
+font-size: 2.5rem;
+text-align: center;
+padding-top: 2rem;
+}
+body{
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    text-align: center;
+    background-image: url(download.jpg)
+    
+}
+#reset{
+    margin-top: 1rem;
+    width: 3rem;
+}
